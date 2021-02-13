@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+}
+
+.images {
+    width: 300px;
+    border-radius: 100%;
+    border-width: thick;
+    margin-top: 90px;
+}
+
+#section1 {
+    background: linear-gradient(to right top, #0ca813, #00bc66, #00cea4, #00ddd8, #00e9ff);
+}
+
+h1 {
+    text-shadow: 2px 2px #69F0AE;
+    font-size: 25px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+#about {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
+}
+
+li {
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul {
+    z-index: 20;
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-family: 'Londrina Solid', cursive;
+    background: #af8578;
+    margin-right: 330px;
+    border-radius: 20px;
+}
+
+li:hover {
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+
+#work {
+    font-family: 'Joti One', cursive;
+    font-size: 30px;
+}
+
+#fav {
+    font-family: 'Metal Mania', cursive;
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#ins {
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 30px;
+}
+
+input {
+    height: 22.5px;
+    border-radius: 10px
+}
+
+.Info {
+    font-size: 19.5px;
+    font-family: 'Faster One', cursive;
+}
+a{
+    text-decoration: none;
+    color: darkturquoise;
+}
+i{
+    color: darkturquoise;
+}
